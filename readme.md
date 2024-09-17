@@ -45,7 +45,7 @@ You launch api service as below:
 $  uvicorn detect_api:app
 ```
 
-To get object detection results using API, HTTP POST json like below:
+To get object detection results using API, HTTP POST json to "http://<uri>:<port>/api/detect" like below:
 
 ```
 {
